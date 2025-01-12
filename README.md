@@ -1,4 +1,4 @@
-# Pixel Views V:0.0: "Marcus Aurelius"
+# Pixel Cloud V0.0: "Marcus Aurelius"
 
 **Murilo Maciel Rodrigues**  
 **Felipe Oliveira Raimundo**  
