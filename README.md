@@ -6,10 +6,10 @@
 ---
 
 ## **Etapa 1:**
-- Programação funcional ➖
+- Programação funcional ✅
 - Tratamento de Eventos ✅
 - Estrutura com ESM ❌
-- Pacotes com ViteJS ✅
+- Pacotes com ViteJS ➖
 - Páginas dinâmicas com dados no LocalStorage ❌
 
 ## **Etapa 2:**
