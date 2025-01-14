@@ -9,8 +9,8 @@
 - Programação funcional ✅
 - Tratamento de Eventos ✅
 - Estrutura com ESM ❌
-- Pacotes com ViteJS ➖
-- Páginas dinâmicas com dados no LocalStorage ➖
+- Pacotes com ViteJS ❌
+- Páginas dinâmicas com dados no LocalStorage ✅
 
 ## **Etapa 2:**
 - Regexp ❌

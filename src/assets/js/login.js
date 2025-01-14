@@ -60,6 +60,7 @@ document.getElementById('cadastrar').addEventListener('click', function() {
     if (!error){
         const usuario = 
         {
+            nome_usuario: document.getElementById('nome_u').value,
             nome: document.getElementById('nome').value,
             data: document.getElementById('datanasc').value,
             telefone: document.getElementById('telefone').value,
@@ -69,6 +70,6 @@ document.getElementById('cadastrar').addEventListener('click', function() {
         }
         console.log(usuario)
         console.log(JSON.stringify(usuario))
-        localStorage.setItem(`${usuario.nome}`, JSON.stringify(usuario))
+        localStorage.setItem(`user`, JSON.stringify(usuario))
     }
 })
