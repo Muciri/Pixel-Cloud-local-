@@ -10,7 +10,7 @@
 - Tratamento de Eventos ✅
 - Estrutura com ESM ❌
 - Pacotes com ViteJS ➖
-- Páginas dinâmicas com dados no LocalStorage ❌
+- Páginas dinâmicas com dados no LocalStorage ➖
 
 ## **Etapa 2:**
 - Regexp ❌
