@@ -61,7 +61,7 @@ main {
 }
 
 .container {
-    height: 40rem;
+    height: 45rem;
     width: 30%;
 
 }
@@ -96,8 +96,16 @@ main {
 
 .form input {
     height: 2rem;
-    width: 20rem;
-    color: black
+    color: black;
+    width: 100%;
+    max-width: 400px;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: 2px solid #000000;
+    border-radius: 25px;
+    outline: none;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 8px rgba(0, 119, 182, 0.2);
 }
 
 .form p {
@@ -105,9 +113,27 @@ main {
     color: red;
 }
 
+.form button:first-of-type{
+    background: linear-gradient(135deg, #000000, #00e67a);
+}
+
+.form button:last-child{
+    background: linear-gradient(135deg, #000000, #a201ec);
+}
+
 .form button {
-    height: 2rem;
-    background-color: #2D2D2D;
+    color: #fff;
+    font-size: 18px;
+    padding: 12px 30px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.24);
+}
+
+.form button:hover {
+    box-shadow: 0 4px 12px rgba(124, 124, 124, 0.308);
 }
 
 /* ----responsive---- */
