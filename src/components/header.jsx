@@ -1,3 +1,5 @@
+import Link from 'next/link';
+
 export default function header(){
     return (
         <header className="bg-black">
@@ -11,10 +13,16 @@ export default function header(){
                 <nav aria-label="Global" className="hidden md:block">
                     <ul className="flex items-center gap-6 text-sm">
                     <li>
-                        <a className="text-white-500 transition hover:text-gray-500/75" href="#games"> Jogos </a>
+                        {/* <a className="text-white-500 transition hover:text-gray-500/75" href="#games"> Jogos </a> */}
+                        <Link href="/login">
+                            <p className="text-white-500 transition hover:text-gray-500/75">Jogos</p>
+                        </Link>
                     </li>
                     <li>
-                        <a className="text-white-500 transition hover:text-gray-500/75" href="#news"> Notícias </a>
+                        {/* <a className="text-white-500 transition hover:text-gray-500/75" href="#noticias"> Notícias </a> */}
+                        <Link href="/perfil">
+                            <p className="text-white-500 transition hover:text-gray-500/75">Jogos</p>
+                        </Link>
                     </li>
                     </ul>
                 </nav>

@@ -1,5 +1,4 @@
-import Image from "next/image";
-import '@/app/css/styles.css'
+import '@/app/styles.css'
 import header from '@/components/header'
 import footer from '@/components/footer'
 
