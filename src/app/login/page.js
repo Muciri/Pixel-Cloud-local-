@@ -46,7 +46,7 @@ function LoginCadastro(){
             <button id="cadastrar">CADASTRAR</button>
           </div>
         </section>
-      </main>
+      </main> <br /> <br />
 
       {footer()}
     </div>

@@ -69,6 +69,7 @@ main {
 }
 
 .form input {
+    background-color: white;
     height: 2rem;
     color: black;
     width: 100%;
